@@ -20,7 +20,7 @@ public class MainActivity extends ActionBarActivity {
         // Enable Javascript
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        mWebView.loadUrl("http://rayffqueiroga.github.io/les-help/");
+        mWebView.loadUrl("file:///android_asset/www/index.html");
     }
 
 
